@@ -1,0 +1,144 @@
+*{margin:0;
+padding-right: 0;}
+body{
+	background-image: url(hitesh.jpg);
+}
+
+.him h3{
+	color: white;
+	text-shadow: 3px 2px grey;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-left: 15px;
+	text-align:center;
+
+}
+.him h1{
+	color: white;
+	text-shadow: 3px 2px grey;
+	text-align: center;
+}
+
+
+.shub{
+	text-decoration: none;text-transform: uppercase;
+	text-shadow: 3px 2px red;
+	color: white;
+	text-align: center;
+	animation:aagepiche ;
+	animation:aagepiche 2s linear infinite;
+	animation-direction: alternate;
+}
+@keyframes aagepiche{
+	from{padding-left: 40px;}
+	to{padding-right: 40px;}
+	}
+.tar{
+	text-align: center;
+}
+.ani{
+	color: black;
+	text-decoration: none;
+	margin: 0 50px;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	text-shadow: 3px 3px white;
+	animation:common 5s linear infinite;
+	animation-direction: alternate;
+	
+}
+@keyframes common {
+	from{padding-left: 40px;}
+	to{padding-right: 40px;}
+}
+.ani1{
+	color: black;
+	text-decoration: none;
+	margin: 0 50px;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	text-shadow: 3px 3px white;
+	animation:update 5s linear infinite;
+	animation-direction: alternate;
+}
+@keyframes update {
+	from{padding-left: 40px;}
+	to{padding-right: 40px;}
+}
+.ani2{
+	color: black;
+	text-decoration: none;
+	margin: 0 50px;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	text-shadow: 3px 3px white;
+	animation:direction 5s linear infinite;
+	animation-direction: alternate;
+}
+@keyframes direction  {
+	from{padding-left: 40px;}
+	to{padding-right: 40px;}
+}
+.dee{
+	color: black;
+	text-decoration: none;
+	margin: 0 90px;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	text-shadow: 3px 3px white;
+	animation:decr 3s linear infinite;
+	animation-direction: alternate;
+	
+}
+@keyframes decr {
+	from{padding-left: 40px;}
+	to{padding-right: 40px;}
+}
+	.dee1{
+	color: black;
+	text-decoration: none;
+	margin: 0 90px;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	text-shadow: 3px 3px white;
+	animation:incr 3s linear infinite;
+	animation-direction: alternate;
+	
+}
+@keyframes incr {
+	from{padding-left: 40px;}
+	to{padding-right: 40px;}
+	}
+	.dee2{
+	color: black;
+	text-decoration: none;
+	margin: 0 90px;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	text-shadow: 3px 3px white;
+	animation:prep 3s linear infinite;
+	animation-direction: alternate;
+	
+}
+@keyframes prep {
+	from{padding-left: 40px;}
+	to{padding-right: 40px;}
+}
+
+.social_network{
+	padding-left: 20px;
+	margin: 0 150px;
+	text-align: center;
+	display: flex;
+
+}
+.fa_design:hover{
+	background-color: black;
+	border-radius: 30px;
+
+}
+
+.fa_desgin:hover{
+	background-color: black;
+	border-radius: 30px;
+}
